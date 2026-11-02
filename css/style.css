@@ -312,7 +312,11 @@ footer{padding:96px 0 32px}
 .fgrid a:hover{color:#fff}
 .fbig{font-family:var(--display);text-transform:uppercase;font-size:clamp(64px,15vw,216px);line-height:.85;color:transparent;-webkit-text-stroke:1px #313131;text-align:center;padding:48px 0 24px;white-space:nowrap;transition:-webkit-text-stroke-color 1s var(--ease)}
 .fbig:hover{-webkit-text-stroke-color:var(--gold)}
-.fbot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;color:var(--muted);font-size:14px;line-height:20px}
+.fbot{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;color:var(--muted);font-size:14px;line-height:20px}
+.credit{display:inline-flex;align-items:center;gap:8px;transition:color .5s var(--ease)}
+.credit img{height:24px;width:auto;opacity:.85;transition:opacity .5s var(--ease)}
+.credit:hover{color:#fff}
+.credit:hover img{opacity:1}
 
 /* floating whatsapp */
 .fab{position:fixed;right:16px;bottom:16px;z-index:80;width:56px;height:56px;border-radius:9999px;background:var(--wa);color:#04210f;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.5);transform:translateY(96px);transition:transform .7s var(--ease)}
